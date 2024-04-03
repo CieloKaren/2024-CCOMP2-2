@@ -1,5 +1,6 @@
+#include <iostream>
 #include <string>
-#include "ejercicio3_12.cpp"
+
 class Date {
     public:
         explicit Date(int m, int d, int y)
@@ -38,13 +39,10 @@ class Date {
          }
 
          void displayDate() const{
-            std::cout << day << "/" << month << "/" << year << endl;
+            std::cout << day << "/" << month << "/" << year << std::endl;
          }
 
 private:
     int day, month{1}, year;
 
 };
-
-
-
