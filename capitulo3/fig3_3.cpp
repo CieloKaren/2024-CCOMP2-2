@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> //se incluye para poder usar el getline
 
 using namespace std;
 
@@ -17,5 +17,5 @@ int main(){
     getline(cin, nombreDelCurso);
     cout << endl;
 
-    miLibroCalificaciones.mostrarMensaje(nombreDelCurso);
+    miLibroCalificaciones.mostrarMensaje(nombreDelCurso); //la variable "nombreDelcurso" es el argumento que se pasa a la función miembro "mostrarMensaje"
 }
