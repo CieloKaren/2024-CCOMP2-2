@@ -11,11 +11,13 @@ class Student{
             }
 
             bool isOlder() const{
-                if((age < 18) or (age > 18))
+                //return age > 18;
+                if((age > 18) || (age == 18)){
                     return true;
                 
-                else
+                }else{
                     return false;
+                }
             }
 
             void setName(int n){
