@@ -11,9 +11,13 @@ int main(){
 
     Date myDate2{15,14,2019};
     myDate2.displayDate();
+    cout << "Validar fecha" <<myDate2.valDate()<<"\n"<<endl;
+    cout << "Año bisiesto: " <<myDate2.isLeapYear()<<endl;
 
     Date myDate3{20,22,1500};
     myDate3.displayDate();
+    cout << "Validar fecha" <<myDate3.valDate()<<"\n"<<endl;
+    cout << "Año bisiesto: " <<myDate3.isLeapYear()<<endl;
 
     /*Date newDate()
     int year;
