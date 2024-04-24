@@ -16,5 +16,5 @@ int main (){
     cout << "Escriba el nombre del curso: " << endl;
     getline(cin, nombreDelCurso); // lee el nombre de un curso con espacios en blanco
     cout << endl; // imprime una linea en blanco
-    miLibroCalificaciones.mostrarMensaje(nombreDelCurso); // llama a la funcion mostrarMensaje del objeto
+    miLibroCalificaciones.mostrarMensaje(nombreDelCurso); // llama a la funcion mostrarMensaje del objeto-- (nombreDelCurso) -> funcion miembro
 }

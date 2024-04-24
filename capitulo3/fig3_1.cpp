@@ -3,7 +3,8 @@ using namespace std;
 
 class LibroCalificaciones{
     public:
-        void mostrarMensaje() const{
+        //funcion que muestra un mensaje de bienvenida para el usuario de LibroCalificaciones
+        void mostrarMensaje() const{ //al declarar const se indica al compilador que "esta funcion no debe modificar el objeto sobre el cual se llama"
             cout << "Bienvenido al libro de Calificaciones!" << endl;
         }
 };

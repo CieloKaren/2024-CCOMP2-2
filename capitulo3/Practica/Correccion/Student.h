@@ -38,5 +38,3 @@ class Student{
 
     
 };
-
-//implemetar bool Older() const

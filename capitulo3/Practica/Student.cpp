@@ -15,7 +15,6 @@ int main(){
     cout << "Ingrese su edad: ";
     int TheAge;
     cin >> TheAge;
-    //cin.ignore(); // Limpiar el buffer de entrada
 
     // Crear un nuevo objeto Student con los datos ingresados
     Student newStudent(TheName, TheAge);
