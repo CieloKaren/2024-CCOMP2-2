@@ -1,3 +1,4 @@
+/*Arreglo Bidimensional (n*m) filas por columnas */
 #include <string>
 #include <array>
 #include <iomanip>

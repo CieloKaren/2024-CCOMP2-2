@@ -1,5 +1,5 @@
 /*Definicion de la clase libroCalificaciones que usa un arreglo
-para almacenar calificaciones de una prueba--
+para almacenar calificaciones de una prueba-- Unidimensional
 Case Study: Class GradeBook Using an array to Store Grades*/
 #include <string>
 #include <array>
@@ -7,8 +7,8 @@ Case Study: Class GradeBook Using an array to Store Grades*/
 #include <iostream>
 class LibroCalificaciones{
     public:
-    //constante - #de estudiantes que tomaron la prueba
-    static const size_t estudiantes{10}; //#de estudiantes
+   
+    static const size_t estudiantes{10}; //constante - #de estudiantes que tomaron la prueba
     //el constructor inicializa el nombre del curso y el arreglo de calificaciones
     LibroCalificaciones(const std::string& nombre, 
     const std::array<int, estudiantes>& arregloCalificaciones)
@@ -60,7 +60,7 @@ class LibroCalificaciones{
         return calificacionInf;//devuelve calificacion +baja
     }
 
-    //busca la calificacion maxima
+    //busca la calificacion maxima--recorre
     int getMaximo() const{
         int calificacionSup{0};//asume q' la califcacion +alta=0
         //itera a traves del arreglo calificaciones
@@ -94,9 +94,9 @@ class LibroCalificaciones{
         std::array<unsigned int, tamanioFrecuencia>frecuencia={};
         //inicializa elementos con 0
 
-        //para cada calificacion, incrementa la frecuencia apropiada
+        //para cada calificacion, incrementa la frecuencia apropiada 
         for(int calificacion : calificaciones){
-            ++frecuencia[calificacion / 10];
+            ++frecuencia[calificacion / 10];//--sirve para contar cuantas calificaciones cae en cd rango
         }
 
         //para cada frecuencia de calificacion, imprime barra en el grafico
