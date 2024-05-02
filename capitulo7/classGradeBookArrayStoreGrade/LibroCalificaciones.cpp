@@ -1,4 +1,4 @@
-//Case Study: Class GradeBook Using an array to Store Grades
+/*7.24 7.25 7.28 7.29*/
 #include <iostream>
 #include "LibroCalificaciones.h"
 using namespace std;
