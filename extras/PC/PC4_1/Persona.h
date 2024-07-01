@@ -7,7 +7,11 @@ class Persona{
         string nombre;
         int edad;
     public:
+
+        // constructor con parametros
         Persona(string n, int e) : nombre(n), edad(e){}
+        // constructor predeterminado
+        Persona() : nombre(""), edad(0) {}
         std::string getNombre () const{
             return nombre;
         }
